@@ -67,7 +67,7 @@
                 android:layout_marginEnd="8dp"
                 android:background="@drawable/jrspinner_search_bg"
                 android:drawablePadding="8dp"
-                android:hint="Search"
+                android:hint="@string/caption_search"
                 android:paddingStart="48dp"
                 android:paddingEnd="48dp"
                 android:singleLine="true"
