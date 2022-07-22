@@ -8,5 +8,5 @@
 
     <attr name="dialog_background" format="color"/>
     <attr name="main_text_color" format="color"/>
-    <attr name="tint_primary" format="color"/>
+    <attr name="tint_images" format="color"/>
 </resources>
