@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?attr/dialog_background">
+    android:background="@color/jrspinner_black_transparent">
 
     <View
         android:id="@+id/root"
@@ -23,6 +23,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
+        app:cardBackgroundColor="?attr/dialog_background"
         app:cardCornerRadius="4dp"
         app:contentPadding="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,7 +43,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:text="Title"
-                android:textColor="#000"
+                android:textColor="?attr/main_text_color"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -70,6 +71,7 @@
                 android:paddingStart="48dp"
                 android:paddingEnd="48dp"
                 android:singleLine="true"
+                android:textColor="?attr/main_text_color"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/view" />
