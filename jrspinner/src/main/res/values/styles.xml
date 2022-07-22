@@ -9,5 +9,6 @@
         <item name="android:windowIsFloating">false</item>
 
         <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="dialog_background">@color/jrspinner_black_transparent</item>
     </style>
 </resources>
